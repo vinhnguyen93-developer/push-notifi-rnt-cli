@@ -9,7 +9,10 @@
 import React, {useEffect} from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 
-import {requestUserPermission} from './src/utils/pushnotification_helper';
+import {
+  requestUserPermission,
+  NotificationListener,
+} from './src/utils/pushnotification_helper';
 
 const App = () => {
   const backgroundStyle = {
@@ -18,6 +21,7 @@ const App = () => {
 
   useEffect(() => {
     requestUserPermission();
+    NotificationListener();
   }, []);
 
   return (

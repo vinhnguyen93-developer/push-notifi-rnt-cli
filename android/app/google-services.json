@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "150768377043",
+    "project_id": "pushnotifi-2b0b9",
+    "storage_bucket": "pushnotifi-2b0b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150768377043:android:ead17df4afbd3c62e64826",
+        "android_client_info": {
+          "package_name": "com.pushnotifi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150768377043-d1g4dsc20q4n072s5fbmiv84vaqk84b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyyFXKkFH4qvOAdeOdsiLIWC0eoYdcDTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150768377043-d1g4dsc20q4n072s5fbmiv84vaqk84b4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "150768377043-8l2l3gnbm8p902ki4du2psmt8hcblpil.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.PushNotifi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
